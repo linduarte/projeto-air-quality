@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+
+# Dados (Não subimos os datasets gigantes por performance e privacidade)
+data/raw/
+data/processed/
+*.csv
+
+# Logs e Auditoria
+integrity_log.txt
+
+# UV
+.uv/
